@@ -90,6 +90,14 @@ Los archivos quedan en la carpeta `salidas/`.
   el programa reparte la descarga en todo el período para que las gráficas representen el rango completo,
   e informa cuántas CVE existen en total.
 
+## Muestra de resultados
+
+En [`muestras/`](muestras) hay una consulta real del 2026-05-01 al 2026-11-03 con las tres bases de datos
+(6.181 registros: 3.000 de NVD, 3.000 de GitHub Advisory y 181 de CISA KEV, con EPSS):
+
+- `muestra_resultados_CVE.xlsx`: datos, resumen con gráficas y parámetros de la consulta.
+- `muestra_resultados_CVE.csv`: mismos datos para importar en Power BI.
+
 ## Estructura
 
 ```
